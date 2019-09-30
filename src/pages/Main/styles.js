@@ -5,24 +5,6 @@ import bg from '../../assets/bg.jpg';
 export const Section = styled.section`
   background: url(${bg}) no-repeat 0px 0px;
   background-size: cover;
-
-  .fullscreen-bg {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -100;
-  }
-
-  .fullscreen-bg__video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
 `;
 
 export const Overlay = styled.div`
@@ -31,7 +13,7 @@ export const Overlay = styled.div`
     rgb(29, 75, 174),
     rgba(219, 71, 53, 0.85)
   );
-  padding: 11rem 0;
+  padding: 12.1rem 0;
 `;
 
 export const Wrapper = styled.div`

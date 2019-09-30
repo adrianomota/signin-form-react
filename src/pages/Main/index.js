@@ -17,7 +17,6 @@ import {
   SignInButton,
   Signup,
   Remember,
-
 } from './styles';
 
 export default function Main() {
@@ -26,7 +25,6 @@ export default function Main() {
       <Overlay>
         <Wrapper>
           <Logo />
-
           <FormSocial>
             <FormHead>Sign in now</FormHead>
             <FormFor>
